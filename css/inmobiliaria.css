@@ -386,6 +386,58 @@ h4 {
 }
 /* FIN PIE DE PAGINA */
 
+/* MODO OSCURO */
+.dark-mode {
+    background-color: #1a1a1a
+}
+
+.dark-mode p {
+    color: #fff
+}
+
+.dark-mode a,.dark-mode h1,.dark-mode h2,.dark-mode h3,.dark-mode h4 {
+    color: #e1e1e1
+}
+
+.dark-mode .anuncio,.dark-mode .resumen-propiedad {
+    background-color: #333;
+    border: 1px solid #333
+}
+
+.dark-mode .anuncio .precio,.dark-mode .resumen-propiedad .precio {
+    color: #71b100
+}
+
+.dark-mode .anuncio .icono,.dark-mode .resumen-propiedad .icono {
+    filter: invert(100%)
+}
+
+.dark-mode .texto-nosotros blockquote {
+    color: #fff
+}
+
+.dark-mode .formulario label,.dark-mode .formulario legend,.dark-mode .formulario p {
+    color: #e1e1e1
+}
+
+.dark-mode .formulario input:not([type=submit]),.dark-mode .formulario select,.dark-mode .formulario textarea {
+    background-color: #333;
+    border: 1px solid #333;
+    color: #fff
+}
+
+.derecha .dark-mode-boton {
+    width: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    filter: invert(100%)
+}
+
+.derecha .dark-mode-boton:hover {
+    cursor: pointer
+}
+/* FIN MODO OSCURO */
+
 /* MEDIA QUERIES PARA PANTALLAS MEDIANAS */
 
 @media (min-width: 768px) {
@@ -456,3 +508,4 @@ h4 {
         margin-top:0
     }   
 }
+
